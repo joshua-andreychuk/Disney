@@ -7,7 +7,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 # Title for the app
-st.title("BYOD - Build Your Own Model")
+st.title("BYOM - Build Your Own Model")
 
 # File Upload
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
